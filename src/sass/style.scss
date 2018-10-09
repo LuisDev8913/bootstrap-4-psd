@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: $color;
+	color:$twosection;
+	font-family: $family;
+	font-size:$fontsize;
+}
+ul li{
+  list-style: none;
+}
+header{
+  background: $headercolor;
+  padding: 50px 0 105px;
+  color: $textcolor;
+  nav li{
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+a{
+  color: $textcolor;
+  transition: all 0.3s ease;
+  &:hover{
+    color: $line;
+  }
+}
+i{
+  transition: all 0.3s ease;
+  &:hover{
+    color: $line;
+  }
+}
+h1,h2{
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.offer{
+  line-height: 1.2;
+  margin-top: 145px;
+  span{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  p{
+    margin-bottom: 40px;
+    max-width: 400px;
+  }
+}
+
+
+.icons{
+  max-width: 140px;
+  a{
+    font-size: 42px;
+    display: block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.ipad{
+  display: block;
+  margin: 60px auto;
+}
+.features{
+  padding: 107px 0 70px;
+  text-align: center;
+  p{
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+  .features_p{
+    margin-bottom: 85px;
+  }
+}
+.blog_text{
+  text-align: left;
+  margin-bottom: 65px;
+  h3{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  p{
+    color: #898989;
+  }
+}
+.blog_icon{
+  font-size: 50px;
+  margin-right: 37px;
+}
+
+.footer{
+  background-color: $twosection;
+  text-align: center;
+  padding: 90px 0 100px;
+  h2{
+    color:$headercolor;
+  }
+  p{
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #898989;
+  }
+  .features_p{
+    margin-bottom: 40px;
+  }
+}
+.form_input{
+  font-size: 16px;
+  border-radius: 5px;
+  width: 580px;
+  padding: 15px  25px;
+  border:none;
+  outline: none;
+  margin-bottom: 50px;
+  font-family: $family;
+}
+.form_btn{
+  text-transform: uppercase;
+  background-color: $headercolor;
+  color: $twosection;
+  border:none;
+  outline: none;
+  padding: 16px  0px;
+  border-radius: 5px;
+  width: 125px;
+  cursor: pointer;
+  font-family: $family;
+}
+.credits{
+  color: #fff;
+  width: 160px;
+  margin: 0 auto;
+
+}
+@media (max-width:992px) {
+  .logo{
+    display: block;
+    margin: 20px auto;
+  }
+  .offer{
+    text-align: center;
+    margin-top: 70px;
+      p{
+        margin: 20px auto;
+      }
+    .icons{
+
+      margin: 10px auto;
+
+    }
+    ul{
+      justify-content: space-between;
+    }
+  }
+  .form_input{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form_btn{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
